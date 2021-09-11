@@ -4,34 +4,115 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Railway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/application.css" />
+
   <title>Bambinos Pizzeria</title>
 </head>
 <body>
-  <header>
-    <div>
-      <h1>Bambinos</h1>
-      <h2>Everyday Noon - 9pm</h2>
-      <h3>Happy Hour 4- 6</h3>
-      <h4>206-269-2222 | 401 Cedar St, Seattle, WA 98121</h4>
+  <header >
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="logo">Bambinos</h1>
+        </div>
+        <div class="col">
+          <h3>Everyday Noon - 9pm</h3>
+          <h4>Happy Hour 4- 6</h4>
+          <h6><a href="tel:206-269-2222" class="phoneContact">206-269-2222</a> | 401 Cedar St</h6>
+        </div>
+      </div>
     </div>
   </header>
   <main>
-
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div id="accordion">
+            <div class="card">
+              <div role="tab" class="card-header">
+                <h4><a data-toggle="collapse" data-target="#pizza">Pizza</a></h4>
+                <div class="collapse show" id="pizza" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="d-none d-sm-block">Menu Item 1</p>
+                    <p class="d-none d-sm-block">Description 1</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div role="tab" class="card-header">
+                <h4><a class="collapsed" data-toggle="collapse" data-target="#appetizers">Appetisers</a></h4>
+                <div class="collapse" id="appetizers" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="d-none d-sm-block">Menu Item 1</p>
+                    <p>Description</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div role="tab" class="card-header">
+                <h4><a class="collapsed" data-toggle="collapse" data-target="#salad">Salad</a></h4>
+                <div class="collapse" id="salad" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="d-none d-sm-block">Menu Item 1</p>
+                    <p>Description</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div role="tab" class="card-header">
+                <h4><a class="collapsed" data-toggle="collapse" data-target="#gelato">Gelato</a></h4>
+                <div class="collapse" id="gelato" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="d-none d-sm-block">Menu Item 1</p>
+                    <p>Description</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div role="tab" class="card-header">
+                <h4><a class="collapsed" data-toggle="collapse" data-target="#taps">On Tap</a></h4>
+                <div class="collapse" id="taps" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="d-none d-sm-block">Menu Item 1</p>
+                    <p>Description</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
   <footer>
-    <div>
-      206-269-2222<br />
-      401 Cedar St, Seattle, WA 98121
-    </div>
-    <div>
-        <a href="http://instagram.com/">Instagram</a>
-        <a href="http://facebook.com/">Facebook</a>
-        <a href="http://twitter.com/">Twitter</a>
+    <div class="container">
+      <div class="row">
+        <div class="col col-sm-6 col-lg-3 order-lg-1">
+          <h6><a href="tel:206-269-2222" class="phoneContact">206-269-2222</a></h6>
+          <h6>401 Cedar St</h6>
+          <h6>Seattle, WA 98121</h6>
+        </div>
+        <div class="col col-sm-6 col-lg-3 order-lg-3">
+          <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+          <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+        </div>
+        <div class="order-lg-2" id="googleMap">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.4282112146398!2d-122.34989164878577!3d47.61780689509472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549015d36410d9c7%3A0x6cf1621e45ab5baa!2sBAMBINOS%20PIZZERIA!5e0!3m2!1sen!2sus!4v1631315989797!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
     </div>
   </footer>
   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/application.js"></script>
 </body>
 </html>
