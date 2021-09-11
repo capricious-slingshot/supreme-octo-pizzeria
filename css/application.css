@@ -17,6 +17,11 @@ a, a:hover {
   float: right;
   margin-left: 10px;
 }
+#copyright{
+  clear: right;
+  text-align: right;
+  padding-top: 15px;
+}
 
 .card-header{
   background: rgb(232, 213, 188);
