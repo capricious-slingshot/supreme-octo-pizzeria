@@ -1,6 +1,4 @@
-require('dotenv').config({path: __dirname + '/.env'}).
-
-console.log("Hello World");
+require('dotenv').config({path: __dirname + '/.env'})
 
 // Initialize and add the map
 function initMap() {
