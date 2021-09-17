@@ -5,6 +5,9 @@ body{
 h1,h2,h3,h4,h5,h6{
   font-family: 'Gruppo', sans-serif;
 }
+h1{
+  font-size: 1.8em;
+}
 h3{
   font-size: 1.5em;
 }
@@ -24,11 +27,9 @@ table th, table td{
   color: #fff;
   padding: 20px;
   background: #0A0A0A;
-  min-width: 280px;
-  max-width: 280px;
+  min-width: 320px;
+  max-width: 320px;
   margin-left: 0;
-}
-#logo .col-12{
   text-align: center;
 }
 #accordion{
@@ -50,7 +51,18 @@ table th, table td{
   color: #fff;
   max-height: 600px;
   padding: 0;
-
+}
+.overlay-35{
+  background: rgba(5, 5, 5, 0.35);
+  padding: 20px;
+}
+.overlay-50{
+  background: rgba(5, 5, 5, 0.50);
+  padding: 20px;
+}
+.overlay-75{
+  background: rgba(5, 5, 5, 0.50);
+  padding: 20px;
 }
 .overflow{
   overflow-y: scroll;
@@ -58,7 +70,7 @@ table th, table td{
 .section-title h5{
   font-size: 25px;
   border-bottom: 1px solid white;
-  margin: 40px;
+  margin-top: 20px;
 }
 .pricing{
   font-family: 'Gruppo', sans-serif;
@@ -67,21 +79,6 @@ table th, table td{
 .sizing{
   margin-left: 17px;
   font-size: 25px;
-}
-.overlay-top{
-  padding-top: 20px;
-}
-.overlay-bottom{
-  padding-bottom: 20px;
-}
-.overlay-35{
-  background: rgba(5, 5, 5, 0.35);
-}
-.overlay-50{
-  background: rgba(5, 5, 5, 0.50);
-}
-.overlay-75{
-  background: rgba(5, 5, 5, 0.50);
 }
 #pizza-card{
   background-attachment: fixed;
