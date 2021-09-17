@@ -65,10 +65,10 @@ table th, table td{
   background: rgba(5, 5, 5, 0.50);
   padding: 20px;
 }
-#taps .overlay-50{
-  padding: 0;
+.overlay-10{
+  background: rgba(5, 5, 5);
 }
-#taps .overlay-50 p{
+.overlay-10 p{
   padding: 20px;
 }
 .overlay-75{
@@ -112,6 +112,7 @@ table th, table td{
 #tap-card{
   background-attachment: fixed;
   background: no-repeat url("/img/beer.png") rgb(70,61,52);
+  background-size: cover;
 }
 .odd td{
   color: rgb(180, 179, 179);
