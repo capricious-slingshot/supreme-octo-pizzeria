@@ -59,6 +59,7 @@ table th, table td{
 }
 .overlay-10{
   background: rgba(5, 5, 5, 0.10);
+  padding: 0;
 }
 .overlay-10 p{
   padding: 20px;
