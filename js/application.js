@@ -1,3 +1,5 @@
+require('dotenv').config({path: __dirname + '/.env'}).
+
 console.log("Hello World");
 
 // Initialize and add the map
