@@ -57,18 +57,18 @@ table th, table td{
   max-height: 600px;
   padding: 0;
 }
+.overlay-10{
+  background: rgba(5, 5, 5, 0.10);
+}
+.overlay-10 p{
+  padding: 20px;
+}
 .overlay-35{
   background: rgba(5, 5, 5, 0.35);
   padding: 20px;
 }
 .overlay-50{
   background: rgba(5, 5, 5, 0.50);
-  padding: 20px;
-}
-.overlay-10{
-  background: rgba(5, 5, 5);
-}
-.overlay-10 p{
   padding: 20px;
 }
 .overlay-75{
